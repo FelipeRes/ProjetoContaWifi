@@ -1,0 +1,51 @@
+h1{
+	font-family: arial, sans-serif;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#adminLink{
+	background-color: green;
+}
+input{
+	padding: 5px;
+}
+form{
+	width:500px;
+	top:50%;
+	left:50%;
+	margin: 10px 10px 10px 10px;
+}
+.formulario{
+	padding: 10px;
+}
+.header{
+	padding: 10px;
+	background-color: #8cc63f;
+}
+.enviar{
+	margin-top: 10px;
+}
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: underline; 
+	color: #f00
+	}
+a:active {
+	text-decoration: none
+	}
